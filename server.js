@@ -18,7 +18,7 @@ server.use(cors( {
 
 // # Mongodb Client
 const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://***@technisonic-project.oildz.mongodb.net/tronc-commun?retryWrites=true&w=majority";
+const uri = "mongodb+srv://papoeltest:test1234@technisonic-project.oildz.mongodb.net/tronc-commun?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true })
 
 
